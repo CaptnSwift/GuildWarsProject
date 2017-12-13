@@ -1,0 +1,5 @@
+Changelog:
+12/13/2017:
+- Cloned the gw2 API, beginning to learn how to use it
+- I need to pull current listings, then pull the items' individual information from the item field of the API
+- But how do pull from 
