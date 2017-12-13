@@ -2,9 +2,11 @@ from urllib2 import Request, urlopen, URLError
 
 request = Request('http://api.guildwars2.com/v2/commerce/listings/19684')
 
+testfile <- open("testfile.txt", "w")
+
 try:
 	response = urlopen(request)
 	pull1 = response.read()
-	write(pull1)
+	testfile.write(pull1)
 except URLError, e:
-    print 'No kittez. Got an error code:', e
+    testfile.write("Error")
